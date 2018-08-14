@@ -1,0 +1,211 @@
+#window{
+  background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1532242381471&di=0c72c744cddae95cb0ff246b9b37c0e4&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fback_pic%2Fqk%2Fback_origin_pic%2F00%2F01%2F87%2Fa756e5ec380f492e8e70df3dca611608.jpg");
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+#body{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  color: white;
+  font-size: 5.0vw;
+  font-family: YouYuan;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.calendarFont{
+  flex-basis: 80%;
+}
+.center{
+  display: flex;
+  flex-basis: 80%;
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 5px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+}
+.footer{
+  height: 120px;
+}
+.modification{
+  display: flex;
+  flex-basis: 20%;
+  background: url("../assets/1.jpg") ;
+  border-radius: 5px 0 0 5px;
+  flex-direction: column;
+  justify-content: center;
+}
+.line{
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+.modificationWhole{
+  align-content: center;
+  flex-basis: 75%;
+  display: flex;
+  flex-direction: column;
+}
+.currentYear{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1vw;
+}
+.currentDay{
+  display: flex;
+  font-size: 7vw;
+  color: #C62F2F;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+.currentWeek{
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1vw;
+}
+.modificationTop{
+  display: flex;
+  justify-content: center;
+  flex-basis: 30%;
+  flex-direction: column;
+}
+.selectTheme{
+  display: flex;
+  justify-content: center;
+}
+.modificationCenter{
+  flex-basis: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.centerMiddle{
+  flex-basis:85%;
+  color: white;
+  display: flex;
+}
+.bottomMiddle{
+  flex-basis:85%;
+  color: gray;
+  background-color: rgba(255,255,255,0.5);
+  border-radius: 3px;
+  overflow-y:auto
+}
+.oneDaySchedule{
+  font-size: 1vw;
+  border-bottom: solid 1px white;
+}
+.selectThemeTitle{
+  font-size: 1vw;
+  font-weight: bold;
+  margin-top:20px;
+}
+.modificationBottom{
+  flex-basis: 60%;
+  display: flex;
+  justify-content: center;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 80%;
+}
+.week{
+  display: flex;
+}
+.weekNav{
+  flex: 0 0 14%;
+  font-size: 1.7vw;
+  color: gray;
+  height: 70px;
+}
+.calendar{
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+.everyday{
+  display: flex;
+  flex: 0 0 14%;
+  align-content: space-around;
+}
+.day{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.gregorianCalendar{
+  font-size: 2.5vw;
+  color: #0B8DFB;
+}
+.lunarCalendar{
+  font-size: 1.1vw;
+  color: gray;
+}
+.holiday{
+  font-size: 1.2vw;
+  color: #FF8140;
+  min-height: 70px;
+}
+.suspension{
+  position:absolute;
+  display: flex;
+  z-index:999;
+  height: 310px;
+  width: 270px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px 2px #888888;
+  opacity: 1.0;
+  flex-direction: column;
+}
+.title{
+  background-color:#0B8DFB ;
+  border-radius: 3px 3px 0 0;
+  font-size: 18px;
+  color: white;
+  font-family: YouYuan;
+  text-align: center;
+  height: 35px;
+}
+.theme{
+  display: flex;
+  margin-top: 30px;
+}
+.schedulecontent{
+  height: 100px;
+}
+.schedule{
+  display: flex;
+  margin-top: 30px;
+}
+.choose{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.true{
+  width: 80px;
+  background-color: #0B8DFB;
+  border-style: none;
+  color: white;
+  border-radius: 3px;
+}
+.false{
+  width: 80px;
+  background-color: #0B8DFB;
+  border-style: none;
+  color: white;
+  border-radius: 3px;
+}
+.Popup{
+  background-color: white;
+  opacity: 1.0;
+}
